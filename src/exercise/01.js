@@ -8,7 +8,7 @@ const countReducer = (state, action) => {
     case 'INCREMENT':
       return {count: state.count + action.step}
     default:
-      throw new Error(`Unsapported action type ${action.type}`)
+      throw new Error(`Unsupported action type ${action.type}`)
   }
 
   // extraCredit 3
